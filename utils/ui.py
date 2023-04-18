@@ -72,7 +72,7 @@ def right_sidebar():
 
 def left_sidebar():
     with st.sidebar:
-        image = Image.open('logo/haystack-logo-colored.png')
+        #image = Image.open('logo/haystack-logo-colored.png')
         st.markdown("Thanks for coming to this :hugging_face: space. \n\n"
                     "This is an effort towards showcasing how you can use Haystack for Retrieval Augmented QA, "
                     "with local [FAISSDocumentStore](https://docs.haystack.deepset.ai/reference/document-store-api#faissdocumentstore)"
@@ -109,4 +109,4 @@ def left_sidebar():
         )
 
         st.markdown("---")
-        st.image(image, width=250)
+        #st.image(image, width=250)
