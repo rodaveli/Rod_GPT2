@@ -1,0 +1,6 @@
+git+https://github.com/deepset-ai/haystack.git@ffd02c29f7cc83a119b6440bfbabaacdaaac3a19#egg=farm-haystack
+faiss-cpu==1.7.2
+sqlalchemy>=1.4.2,<2
+sqlalchemy_utils
+psycopg2-binary
+streamlit==1.19.0
